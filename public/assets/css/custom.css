@@ -51,7 +51,7 @@
 
 .content {
     border: none;
-    border-radius: 20px;
+    border-radius: 3px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@
     bottom: 0;
     width: 100%;
     height: 20%;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 3px 3px;
     padding: 0 16px;
     background: rgba(0,0,0,.6);
     color: #fff;
@@ -116,13 +116,13 @@
 }
 
 .content .copy div.copy-overlay:only-child {
-    border-radius: 15px;
+    border-radius: 3px;
 }
 .content .copy div.copy-overlay:last-of-type {
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 3px 3px;
 }
 .content .copy div.copy-overlay:first-of-type {
-    border-radius: 15px 15px 0 0;
+    border-radius: 3px 3px 0 0;
 }
 
 .content .copy.selected{
@@ -422,6 +422,12 @@ table tbody tr td h3{
     .tournament-box .tournament-details .tournament-stats-block .tournament-stats {
         margin-right: 8px;
     }
+    .winner-row .col-md-4:nth-child(2){
+        margin-top: -15px;
+    }
+    .winner-row .col-md-4:nth-child(2) .nk-team{
+        box-shadow: 0px 20px 40px 20px rgb(0 0 0 / 40%);
+    }
 }
 @media screen and (max-width: 1200px){
     .tournament-box .tournament-details .tournament-description-block .name-block .tournament-name {
@@ -434,6 +440,9 @@ table tbody tr td h3{
     }
     .tournament-box .tournament-details .tournament-stats-block {
         flex-wrap: wrap;
+    }
+    .nk-team-photo img{
+        display: none;
     }
 }
 @media screen and (max-width: 479px){
@@ -507,4 +516,28 @@ table tbody tr td h3{
     .tournament-box .view-tournament a i {
         font-size: 14px;
     }
+}
+.center-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.nk-team{
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.nk-team .nk-team-cont .nk-team-photo{
+    top: auto;
+}
+.nk-team-photo img{
+    width: 90px;
+    height: 90px;
+    float: right;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.nk-flickity-arrow{
+    border: none;
 }

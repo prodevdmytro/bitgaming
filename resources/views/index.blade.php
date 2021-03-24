@@ -258,9 +258,6 @@
                 </div>
             </div>
         </div>
-        <!-- END: Latest Matches -->
-    </div>
-    <div class="container">
         <div class="nk-gap-2"></div>
         <h3 class="nk-decorated-h-2"><span><span class="text-main-1">Today's</span> Tournaments</span></h3>
         <div class="nk-gap"></div>
@@ -290,7 +287,10 @@
                 </select>
             </div>
         </div>
-        <div class="nk-gap"></div>
+        <!-- END: Latest Matches -->
+    </div>
+    <div class="container">
+        <div class="nk-gap-2"></div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 p-10">
                 <div class="tournament-box">
@@ -478,9 +478,9 @@
     </div>
     <div class="container" style="max-width: 1600px">
         <!-- START: Categories -->
-        <div class="nk-gap-2"></div>
+        <div class="nk-gap-5"></div>
         <div class="row vertical-gap">
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6 col-6">
                 <div class="nk-feature-2">
                     <div class="nk-feature-icon">
                         <img src="assets/images/icon-mouse.png" alt="">
@@ -493,7 +493,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6 col-6">
                 <div class="nk-feature-2">
                     <div class="nk-feature-icon">
                         <img src="assets/images/icon-mouse.png" alt="">
@@ -506,7 +506,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 col-sm-6 col-6">
+                <div class="nk-feature-2">
+                    <div class="nk-feature-icon">
+                        <img src="assets/images/icon-mouse.png" alt="">
+                    </div>
+                    <div class="nk-feature-icon">
+                        <div class="nk-count h2 mb-0">18586</div>
+                    </div>
+                    <div class="nk-feature-cont text-center">
+                        <h3 class="nk-feature-title"><span class="text-main-1">Clean</span> and Slick</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-6">
                 <div class="nk-feature-2">
                     <div class="nk-feature-icon">
                         <img src="assets/images/icon-mouse.png" alt="">
@@ -521,9 +534,83 @@
             </div>
         </div>
         <!-- END: Categories -->
-
+        <div class="nk-gap-5"></div>
+        <div class="center-area">
+            <h4 class="nk-decorated-h-4 m-0">JOIN THE FASTEST GROWING ESPORTS COMMUNITY</h4>
+            <a href="#" class="nk-btn nk-btn-rounded nk-btn-outline nk-btn-color-warning ml-25">
+                <span>Join Now</span>
+                <span class="icon"><svg class="svg-inline--fa fa-css3 fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="css3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg><!-- <i class="fab fa-css3"></i> --></span>
+            </a>
+        </div>
+        <div class="nk-gap-3"></div>
+        <h3 class="nk-decorated-h-2"><span><span class="text-main-1">Top players</span> Of the week</span></h3>
+        <div class="nk-gap"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Placements reset every Sunday at 12 AM EST</h6>
+            </div>
+        </div>    
+    </div>
+    <div class="container" style="max-width: 1440px">
+        <!-- START: Winners Section -->
+        <div class="row winner-row">
+            <div class="col-md-4">
+                <h4 class="mt-30">Top Singles Team</h4>
+                <div class="nk-team">
+                    <div class="nk-team-logo">
+                        <img src="assets/images/first-place-lg.jpg" alt="">
+                    </div>
+                    <div class="nk-team-cont">
+                        <h3 class="h5 mb-20"><span class="text-main-1">Team:</span> SK Telecom T1</h3>
+                        <h4 class="h6 mb-5">Members:</h4>
+                        <a href="#">Duke</a>, 
+                        <a href="#">Bangi</a>, 
+                        <a href="#">Faker</a>, 
+                        <a href="#">Bang</a>, 
+                        <a href="#">Wolf</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class="mt-30">Top Duos Team</h4>
+                <div class="nk-team">
+                    <div class="nk-team-logo">
+                        <img src="assets/images/first-place-lg.jpg" alt="">
+                    </div>
+                    <div class="nk-team-cont">
+                        <h3 class="h5 mb-20"><span class="text-main-1">Team:</span> SK Telecom T1</h3>
+                        <h4 class="h6 mb-5">Members:</h4>
+                        <a href="#">Duke</a>, 
+                        <a href="#">Bangi</a>, 
+                        <a href="#">Faker</a>, 
+                        <a href="#">Bang</a>, 
+                        <a href="#">Wolf</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class="mt-30">Top Full Team</h4>
+                <div class="nk-team">
+                    <div class="nk-team-logo">
+                        <img src="assets/images/first-place-lg.jpg" alt="">
+                    </div>
+                    <div class="nk-team-cont">
+                        <h3 class="h5 mb-20"><span class="text-main-1">Team:</span> SK Telecom T1</h3>
+                        <h4 class="h6 mb-5">Members:</h4>
+                        <a href="#">Duke</a>, 
+                        <a href="#">Bangi</a>, 
+                        <a href="#">Faker</a>, 
+                        <a href="#">Bang</a>, 
+                        <a href="#">Wolf</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: Winners Section -->
+    </div>
+    <div class="container" style="max-width: 1600px">
         <!-- START: Latest News -->
-        <div class="nk-gap-2"></div>
+        <div class="nk-gap-5"></div>
         <h3 class="nk-decorated-h-2"><span><span class="text-main-1">Latest</span> News</span></h3>
         <div class="nk-gap"></div>
 

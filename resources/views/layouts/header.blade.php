@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="nk-nav-table">
                     <a href="{{ url('/') }}" class="nk-nav-logo">
-                        <p> logo </p>
+                        <img src="{{ url('assets/images/logo.png') }}" alt="GoodGames" width="70">
                     </a>
                     <ul class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
                         <li>
