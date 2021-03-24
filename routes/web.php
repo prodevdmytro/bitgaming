@@ -25,6 +25,17 @@ Route::get('/template', 'TemplateController@index');
 Route::get('/leaderboard', 'LeaderboardController@index');
 Route::get('/faq', 'FaqController@index');
 Route::get('/news', 'NewsController@index');
+
+/*
+ * Alek's url begin
+ */
+
+Route::get('/myprofile', 'ProfileController@index');
+
+/*
+ * Alek's url end
+ */
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

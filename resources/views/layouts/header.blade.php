@@ -54,6 +54,8 @@
 
     <!-- jQuery -->
     <script src="{{ url('assets/vendor/jquery/dist/jquery.min.js') }}"></script>
+
+    @yield('css')
     
 </head>
 
@@ -216,7 +218,7 @@
                             </a>
                             <ul class="dropdown">       
                                 <li>
-                                    <a href="">
+                                    <a href="{{url('myprofile')}}">
                                         My Profile
                                     </a>
                                 </li>
